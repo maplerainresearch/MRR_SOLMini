@@ -1,1 +1,1 @@
-# MRR_SOLMini
+# MRR SOLMini
