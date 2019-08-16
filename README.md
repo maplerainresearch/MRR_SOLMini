@@ -2,11 +2,11 @@
 
 Single-cell lithium-ion battery solar charger module for use with microcontrollers
 
-##Features
+## Features
 - Input: 4.4V to 6V (solar panel) or 5V (USB); max. charging current 800mA
 - Output: 3.3V @ max. 1A; 5V @ max. 800mA (Plus version only)
 
-The MRR SOLMini is a single-cell lithium-ion battery solar charger module for use with microcontrollers based on a CN3063 constant-current/constant voltage linear charger for single cell Li-ion and Li Polymer rechargeable batteries. The Core version offers only 3.3V output, while the Plus version offers both 3.3V and 5V output. Battery protection is offered by the DW01. For outputs, 3.3V is directly drawn from the battery using a Schottky diode, while 5V is powered by the AP2007 DC-DC step-up converter.
+The MRR SOLMini is a single-cell lithium-ion battery solar charger module for use with microcontrollers based on a CN3063 constant-current/constant voltage linear charger for single cell Li-ion and Li Polymer rechargeable batteries. The Core version offers output directly from the battery. The Basic version offers only 3.3V output, while the Plus version offers both 3.3V and 5V output. Battery protection is offered by the DW01. For outputs, 3.3V is provided through a TPS73733 LDO regulator, while 5V is powered by the AP2007 DC-DC step-up converter.
 
 Solar panel input is disabled by the FDN340P P-channel MOSFET when charging via USB.
 
